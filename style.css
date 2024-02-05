@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#topbar{
+    padding: 10px 10px;
+    border-bottom: 1px solid gray;
+}
+#topbar h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+#wrapper span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    flex-direction: column;
+}
+#wrapper button{
+    display:block;
+    padding: 12px 28px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecede8;
+    transition: all 0.5s ease-in-out;
+}
+#wrapper button:hover{
+    background-color: #88d1dc;
+}
